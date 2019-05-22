@@ -1,0 +1,83 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head> 
+	<title>Movies Collection </title> </font>
+	
+	<object height="0" width="00" data="kkk.mp3"></object>
+	<style> 
+		body {background-image:url('movie.jpg');} 
+		
+div
+{
+background:url('movie.jpg');
+background-size:100% 100%;
+background-repeat:no-repeat;
+}
+
+		
+table, td, th
+{
+border:1px solid BLUE;
+}
+table
+{
+background-color:Yellow;
+color:BLUE;
+}
+h1
+{font-family:"bebas", Times, serif;}
+
+
+	</style> 
+</head> 
+<center> 
+<body> 
+<table border = 4> 
+
+<h1> Movies Collection </h1> 
+<tr>
+<tr> <td> <b> ENTER MOVIE ID (search- example: 1):  </b></td> </tr> 
+
+	<tr>
+	<td> 
+	<form action="search.php" method="get">
+	<input type = "text" name = "search"><br/> 	
+	<input type = "submit" value = "Submit"> 
+	</form>
+	</td>
+	</tr>
+	
+<tr>
+	<td> <b>DELETE ID </b>:  
+	<form action="delete.php" method="get">
+	<input type = "text" name = "delete"><br/> 	
+	<input type = "submit" value = "Submit"> 
+	</form> </td>
+	</tr>
+<br>
+<br/>	
+<tr>
+	<td> <b>ADD MOVIE  :</b>  
+	<form action="Newmovie.php" method="post">
+	<input type = "text" name = "NAME"><br/> 	
+	<b>ENTER ID NO OF NEW MOVIE  :</b>  
+	<br/>
+	<input type = "text" name = "ID"><br/> 	
+	<b>ENTER PRICE FOR THE NEW MOVIE: </b>
+	<br/>	
+	<input type = "text" name = "PRICE"><br/> 	
+	<input type = "submit" value = "Submit"> 
+	</form> </td>
+	
+	
+	
+	
+ </tr>
+</table> 
+
+
+</body> 
+</html> 
